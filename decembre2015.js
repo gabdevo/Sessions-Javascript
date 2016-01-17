@@ -1,9 +1,9 @@
 <script>
 
 // PV veut dire Points de Vie
-var PV = 12000000$;
-var moin d'argent = 300$;
-var paye = 200$;
+var PV = 12000000;
+var degat = 300;
+var soigne = 200;
 
 function attaque() {
     PV = PV-degats;

@@ -1,14 +1,14 @@
 <script>
 
 // PV veut dire Points de Vie
-var PV = 12;
-var degats = 3;
-var soins = 2;
+var PV = 12000000$;
+var moin d'argent = 300$;
+var paye = 200$;
 
 function attaque() {
     PV = PV-degats;
     if(PV <= 0){
-        alert("Le monstre est mort ! :-)");
+        alert("vous etes pauvre ! :-)");
     }
     else {
         alert("Le monstre a perdu "+degats+" PV. Il lui en reste "+PV);
